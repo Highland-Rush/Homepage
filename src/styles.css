@@ -1,0 +1,72 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --grey: #808080;
+    --burnt-orange: #CC5500;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--black);
+  }
+  
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .home {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .cta-button {
+    background-color: var(--burnt-orange);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--grey);
+  }
+  
+  footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
