@@ -1,7 +1,8 @@
-# homepage
+# Homepage
 
-File Structure
+## File Structure
 
+```plaintext
 my-homepage/
 ├── public/
 │   └── index.html
